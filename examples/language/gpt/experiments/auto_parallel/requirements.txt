@@ -2,3 +2,5 @@ colossalai >= 0.1.12
 torch >= 1.8.1
 transformers >= 4.23.1
 PuLP >= 2.7.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
