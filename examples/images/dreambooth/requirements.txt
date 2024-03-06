@@ -5,3 +5,4 @@ transformers>=4.21.0
 ftfy
 tensorboard
 modelcards
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
