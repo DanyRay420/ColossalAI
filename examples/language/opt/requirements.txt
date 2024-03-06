@@ -2,3 +2,5 @@ colossalai >= 0.1.12
 torch >= 1.8.1
 datasets >= 1.8.0
 transformers >= 4.20.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
