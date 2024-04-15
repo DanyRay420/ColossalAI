@@ -4,4 +4,4 @@ titans
 pulp
 datasets
 matplotlib
-transformers==4.22.1
+transformers==4.38.0
