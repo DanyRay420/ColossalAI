@@ -10,3 +10,4 @@ matplotlib
 numpy
 zhon
 rouge_score
+transformers>=4.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
