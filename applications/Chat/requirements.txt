@@ -1,4 +1,4 @@
-transformers>=4.20.1
+transformers>=4.38.0
 tqdm
 datasets
 loralib
@@ -11,3 +11,4 @@ sse_starlette
 wandb
 sentencepiece
 gpustat
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
