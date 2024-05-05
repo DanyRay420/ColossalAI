@@ -5,3 +5,4 @@ sentencepiece != 0.1.92
 protobuf
 accelerate == 0.13.2
 transformers
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
