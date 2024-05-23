@@ -2,3 +2,4 @@ torch==1.12.1
 titans==0.0.7
 colossalai==0.2.0+torch1.12cu11.3
 -f https://release.colossalai.org
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
