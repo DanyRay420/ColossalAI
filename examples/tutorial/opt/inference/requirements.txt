@@ -1,10 +1,15 @@
-fastapi==0.85.1
+fastapi==0.109.1
 locust==2.11.0
-pydantic==1.10.2
+pydantic==1.10.13
 sanic==22.9.0
 sanic_ext==22.9.0
-torch>=1.10.0
-transformers==4.23.1
+torch>=2.2.0
+transformers==4.38.0
 uvicorn==0.19.0
 colossalai
 git+https://github.com/hpcaitech/EnergonAI@main
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
