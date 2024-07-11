@@ -3,3 +3,4 @@ torch
 torchvision
 tqdm
 pytest
+ray>=2.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
