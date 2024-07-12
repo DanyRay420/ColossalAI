@@ -5,3 +5,4 @@ tqdm
 transformers
 scipy
 scikit-learn
+ray>=2.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
