@@ -14,4 +14,8 @@ contexttimer
 einops
 triton==2.0.0.dev20221202
 git+https://github.com/HazyResearch/flash-attention.git@c422fee3776eb3ea24e011ef641fd5fbeb212623#egg=flash_attn
-requests==2.27.1 # downgrade to avoid huggingface error https://github.com/huggingface/transformers/issues/17611
+requests==2.32.2 # downgrade to avoid huggingface error https://github.com/huggingface/transformers/issues/17611
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
