@@ -5,3 +5,5 @@ pulp
 datasets
 matplotlib
 transformers==4.22.1
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
