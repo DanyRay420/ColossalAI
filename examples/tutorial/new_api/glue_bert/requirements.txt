@@ -5,3 +5,4 @@ tqdm
 transformers
 scipy
 scikit-learn
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
