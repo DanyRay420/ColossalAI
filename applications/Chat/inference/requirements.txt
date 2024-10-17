@@ -11,3 +11,4 @@ git+https://github.com/huggingface/transformers
 accelerate
 bitsandbytes
 jieba
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
