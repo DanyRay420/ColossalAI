@@ -1,4 +1,4 @@
-torch==1.12.1
+torch==2.6.0
 colossalai
 titans
 pulp
