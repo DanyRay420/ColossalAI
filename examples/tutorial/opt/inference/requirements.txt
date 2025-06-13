@@ -8,3 +8,5 @@ transformers==4.23.1
 uvicorn==0.19.0
 colossalai
 git+https://github.com/hpcaitech/EnergonAI@main
+flask-cors>=6.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
