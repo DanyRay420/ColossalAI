@@ -11,3 +11,5 @@ git+https://github.com/huggingface/transformers
 accelerate
 bitsandbytes
 jieba
+flask-cors>=6.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
