@@ -1,9 +1,9 @@
-transformers>=4.20.1
+transformers>=4.53.0
 tqdm
 datasets
 loralib
 colossalai>=0.2.4
-torch<2.0.0, >=1.12.1
+torch<2.8.0
 langchain
 tokenizers
 fastapi
