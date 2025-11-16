@@ -1,4 +1,4 @@
 colossalai >= 0.1.12
-torch >= 1.8.1
+torch>=2.9.0
 datasets >= 1.8.0
 transformers >= 4.20.0
