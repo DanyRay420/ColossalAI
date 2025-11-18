@@ -1,4 +1,4 @@
 colossalai >= 0.1.12
-torch >= 1.8.1
+torch>=2.9.0
 transformers >= 4.23.1
 PuLP >= 2.7.0
