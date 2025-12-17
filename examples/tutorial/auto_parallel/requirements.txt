@@ -5,3 +5,5 @@ pulp
 datasets
 matplotlib
 transformers==4.22.1
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
