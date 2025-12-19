@@ -8,5 +8,5 @@ click
 fabric
 contexttimer
 ninja
-torch>=1.11
+torch>=2.2.0
 safetensors
