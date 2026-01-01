@@ -1,2 +1,2 @@
-transformers >= 4.23
+transformers>=5.0.0rc1
 colossalai
