@@ -1,7 +1,9 @@
-torch==1.12.1
+torch==2.9.0
 colossalai
 titans
 pulp
 datasets
 matplotlib
 transformers==4.22.1
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
